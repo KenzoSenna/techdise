@@ -1,0 +1,101 @@
+
+    body {
+      scroll-behavior: smooth;
+      background: #f8f9fa;
+    }
+
+    .hero {
+      min-height: 92vh;
+      display: flex;
+      align-items: center;
+      background: linear-gradient(135deg, rgba(13,110,253,.95), rgba(102,16,242,.92)),
+                  url('https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1600&q=80') center/cover;
+      color: #fff;
+    }
+
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: .5rem;
+      padding: .5rem .9rem;
+      border-radius: 999px;
+      background: rgba(255,255,255,.12);
+      backdrop-filter: blur(8px);
+      margin-bottom: 1rem;
+    }
+
+    .section-title {
+      font-weight: 800;
+      letter-spacing: -.03em;
+    }
+
+    .section-subtitle {
+      color: #6c757d;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .feature-card,
+    .metric-card,
+    .service-card,
+    .step-card,
+    .testimonial-card,
+    .contact-card,
+    .client-card {
+      border: 0;
+      border-radius: 1.25rem;
+      box-shadow: 0 12px 30px rgba(0,0,0,.06);
+    }
+
+    .feature-icon,
+    .service-icon,
+    .step-icon {
+      width: 3rem;
+      height: 3rem;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 1rem;
+      background: rgba(13,110,253,.12);
+      color: #0d6efd;
+      font-size: 1.35rem;
+      margin-bottom: 1rem;
+    }
+
+    .metric-value {
+      font-size: 2rem;
+      font-weight: 800;
+      line-height: 1;
+    }
+
+    .metric-label {
+      color: #6c757d;
+      margin: 0;
+    }
+
+    .team-card img {
+      height: 220px;
+      object-fit: cover;
+    }
+
+    .client-logo {
+      height: 54px;
+      object-fit: contain;
+      filter: grayscale(100%);
+      opacity: .8;
+    }
+
+    footer {
+      background: #0f172a;
+      color: #fff;
+    }
+
+    footer a {
+      color: #cbd5e1;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      color: #fff;
+    }
+  
